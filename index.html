@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>مسابقة القرآن الكريم</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/fontawesome.min.css" />
+    <link rel="stylesheet" href="./css/animations.css" />
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body>
+    <div class="h-100 w-100 d-flex flex-column">
+      <div class="row w-75 m-auto h-75 justify-content-center">
+        <div id="form-cards" class="cards p-3"></div>
+      </div>
+      <div class="row w-75 m-auto h-50 justify-content-center hide">
+        <div id="question-cards" class="cards p-3"></div>
+        <div
+          id="question-cards-overlay"
+          class="question-cards-overlay p-3 hide"
+        >
+          <span id="overlay-close-btn"><i class="fa-solid fa-xmark"></i></span>
+          <div id="question">
+            <span>من قوله تعالى </span>
+            <span id="from"></span>
+            <br />
+            <span>إلى قوله تعالى </span>
+            <span id="to"></span>
+            <br />
+            <span>من سورة </span>
+            <span id="surah"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/fontawesome.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
